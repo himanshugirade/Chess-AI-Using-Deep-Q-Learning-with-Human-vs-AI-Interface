@@ -24,13 +24,14 @@ The AI learns to play chess by interacting with the environment and improving it
 
 ---
 
-How It Works
-The board is converted into a 64-length numerical vector
-The DQN model predicts Q-values for all possible moves
-The agent selects moves using epsilon-greedy strategy
-Rewards guide the learning process
-The model improves over multiple training episodes
-Reward System
-Checkmate → +100
-Stalemate → 0
-Normal move → +0.1
+## How It Works
+- The board is converted into a 64-length numerical vector  
+- The DQN model predicts Q-values for all possible moves  
+- The agent selects moves using epsilon-greedy strategy  
+- Rewards guide the learning process  
+- The model improves over multiple training episodes  
+
+## Reward System
+- Checkmate → +100  
+- Stalemate → 0  
+- Normal move → +0.1  
